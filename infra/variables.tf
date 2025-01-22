@@ -395,13 +395,13 @@ variable "appServicePlanName" {
 variable "appServiceSkuSize" {
   description = "The size of the app service plan for the IA website. Must match with the tier value in appServiceSkuTier."
   type = string
-  default = "F1"
+  default = "S1"
 }
 
 variable "appServiceSkuTier" {
   description = "The tier of the app service plan for the IA website. Must match with the size value in appServiceSkuSize."
   type = string
-  default = "Free"
+  default = "Standard"
   
 }
 
